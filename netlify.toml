@@ -2,6 +2,11 @@
   command = "npm install --prefix frontend && npm run build --prefix frontend"
   publish = "frontend/dist"
 
+[build.environment]
+  # PARSE_SERVER_URL is a public URL (not a secret) that appears in docs,
+  # so exclude it from Netlify's secret scanning to avoid false positives.
+  SECRETS_SCAN_OMIT_KEYS = "PARSE_SERVER_URL"
+
 [functions]
   directory = "netlify/functions"
 
