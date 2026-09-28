@@ -1,0 +1,29 @@
+{
+  "name": "foregn2c",
+  "version": "1.0.0",
+  "description": "Todo list app with authentication using React, Netlify Functions, and Back4App",
+  "scripts": {
+    "dev": "netlify dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "todo",
+    "authentication",
+    "react",
+    "netlify",
+    "back4app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "jsonwebtoken": "^9.0.3",
+    "parse": "^8.6.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "netlify-cli": "^17.0.0"
+  }
+}
