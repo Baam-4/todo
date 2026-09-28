@@ -1,6 +1,6 @@
 # Todo List App with Authentication
 
-> 🎥 **Demo Video:** [)
+> 🎥 **Demo Video:** [Watch on YouTube](https://youtu.be/AjzKpvpjLmI)
 >
 > <!-- Replace YOUR_VIDEO_ID above with your actual YouTube link -->
 
